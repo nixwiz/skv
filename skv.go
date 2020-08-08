@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"time"
 
-	bolt "github.com/etcd-io/bbolt"
+	bolt "go.etcd.io/bbolt"
 )
 
 // KVStore represents the key value store. Use the Open() method to create
